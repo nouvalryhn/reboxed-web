@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+import Image from 'next/image'
 import { useState, Suspense } from 'react'
 import { useRouter, useSearchParams } from 'next/navigation'
 import { motion, AnimatePresence } from 'framer-motion'
@@ -14,7 +15,6 @@ import {
     MessageCircle,
     Menu,
     X,
-    Package,
     Heart,
     LogOut,
     Settings
@@ -51,14 +51,17 @@ function NavbarContent() {
                             whileHover={{ scale: 1.05 }}
                             whileTap={{ scale: 0.95 }}
                         >
-                            <div className="absolute inset-0 bg-gradient-to-br from-emerald-400 to-teal-500 rounded-xl blur-lg opacity-40 group-hover:opacity-60 transition-opacity" />
-                            <div className="relative bg-gradient-to-br from-emerald-500 to-teal-600 p-2.5 rounded-xl shadow-lg">
-                                <Package className="h-6 w-6 text-white" />
-                            </div>
+                            <Image
+                                src="/logo.jpg"
+                                alt="ReBoxed Logo"
+                                width={44}
+                                height={44}
+                                className="rounded-xl shadow-lg object-contain border border-gray-200"
+                            />
                         </motion.div>
                         <div>
                             <h1 className="text-xl font-bold bg-gradient-to-r from-emerald-600 to-teal-600 bg-clip-text text-transparent">
-                                ReBoxed
+                                Re<span className="text-black">Boxed</span>
                             </h1>
                             <p className="text-[10px] text-gray-500 font-medium tracking-wide">PRELOVED MARKETPLACE</p>
                         </div>
