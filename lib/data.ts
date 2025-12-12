@@ -61,9 +61,9 @@ export const mockProducts: Product[] = [
     {
         id: '3',
         name: 'MacBook Pro 2019 13"',
-        price: 12500000,
-        originalPrice: 24000000,
-        discount: 48,
+        price: 8500000,
+        originalPrice: 16000000,
+        discount: 47,
         condition: 'Like New',
         image: 'https://i.ebayimg.com/00/s/MTE5N1gxNDU4/z/Ko4AAOSw-F1jN1x0/$_12.JPG?set_id=880000500F',
         images: [
@@ -89,9 +89,9 @@ export const mockProducts: Product[] = [
     {
         id: '4',
         name: 'IKEA Sofa 3 Seater',
-        price: 2500000,
-        originalPrice: 5500000,
-        discount: 55,
+        price: 1500000,
+        originalPrice: 4500000,
+        discount: 66,
         condition: 'Good',
         image: 'https://d2xjmi1k71iy2m.cloudfront.net/dairyfarm/id/images/494/0949429_PE799735_S4.jpg',
         images: [
@@ -117,9 +117,9 @@ export const mockProducts: Product[] = [
     {
         id: '5',
         name: 'Canon EOS M50 Kit',
-        price: 6800000,
-        originalPrice: 10500000,
-        discount: 35,
+        price: 4800000,
+        originalPrice: 8500000,
+        discount: 43,
         condition: 'Like New',
         image: 'https://jakartacamera.com/wp-content/uploads/2020/10/237505195alt5.jpg',
         images: [
@@ -145,9 +145,9 @@ export const mockProducts: Product[] = [
     {
         id: '6',
         name: 'Adidas Ultraboost 21',
-        price: 1200000,
-        originalPrice: 2800000,
-        discount: 57,
+        price: 750000,
+        originalPrice: 2200000,
+        discount: 66,
         condition: 'Good',
         image: 'https://img.ncrsport.com/img/storage/large/s23863-1.jpg',
         images: [
@@ -173,9 +173,9 @@ export const mockProducts: Product[] = [
     {
         id: '7',
         name: 'Harry Potter Complete Set',
-        price: 650000,
+        price: 350000,
         originalPrice: 1200000,
-        discount: 46,
+        discount: 70,
         condition: 'Good',
         image: 'https://images-cdn.ubuy.co.id/6545af6414631025c0516eb5-1-st-edition-harry-potter-full-book-set.jpg',
         images: [
@@ -201,9 +201,9 @@ export const mockProducts: Product[] = [
     {
         id: '8',
         name: 'PlayStation 4 Pro 1TB',
-        price: 3500000,
+        price: 2500000,
         originalPrice: 6500000,
-        discount: 46,
+        discount: 61,
         condition: 'Good',
         image: 'https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//catalog-image/98/MTA-143627506/no_brand_ps4_pro_1tb_original_full01_ndzbxbbp.jpg',
         images: [
@@ -229,9 +229,9 @@ export const mockProducts: Product[] = [
     {
         id: '9',
         name: 'Pakaian Wanita Salur Maroon',
-        price: 43200,
+        price: 25000,
         originalPrice: 80000,
-        discount: 46,
+        discount: 68,
         condition: 'Good',
         image: 'https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//116/MTA-63559898/brd-44261_kaos-salur-wanita-lengan-panjang_full01.jpg',
         images: [
@@ -257,9 +257,9 @@ export const mockProducts: Product[] = [
     {
         id: '10',
         name: 'Hoodie Pria Terbaru',
-        price: 262500,
+        price: 150000,
         originalPrice: 350000,
-        discount: 25,
+        discount: 57,
         condition: 'Good',
         image: 'https://ryusei.co.id/cdn/shop/files/Artboard1_4b32a791-ac00-45d4-ae2f-2d9437c72f3d.png?v=1718953696',
         images: [
@@ -285,9 +285,9 @@ export const mockProducts: Product[] = [
     {
         id: '11',
         name: 'Kursi Kerja Kantor Minimalis',
-        price: 2000000,
+        price: 1500000,
         originalPrice: 2500000,
-        discount: 20,
+        discount: 40,
         condition: 'Good',
         image: 'https://img.lazcdn.com/g/p/3f4c5fe0b9e042ad537a3f38bbff72c6.jpg_720x720q80.jpg',
         images: [
@@ -313,9 +313,9 @@ export const mockProducts: Product[] = [
     {
         id: '12',
         name: 'Meja Belajar MB GL 982',
-        price: 502500,
+        price: 250000,
         originalPrice: 602500,
-        discount: 17,
+        discount: 58,
         condition: 'Good',
         image: 'https://inverio.co.id/wp-content/uploads/2022/01/Meja-Belajar-MB-GL-982.png',
         images: [
@@ -341,9 +341,9 @@ export const mockProducts: Product[] = [
     {
         id: '13',
         name: 'Stora 68x35x70 Cm Rak Sepatu 3 Tingkat - Hitam',
-        price: 132000,
+        price: 100000,
         originalPrice: 150000,
-        discount: 12,
+        discount: 33,
         condition: 'Good',
         image: 'https://cdn.ruparupa.io/fit-in/850x850/filters:format(webp)/filters:watermark(content.ruparupa.io,products/wm/rr.png,0,-0,0,100,100)/ruparupa-com/image/upload/Products/10182428_1.jpg',
         images: [
@@ -369,9 +369,9 @@ export const mockProducts: Product[] = [
     {
         id: '14',
         name: 'Metode Penelitian Kuantitatif Kualitatif Dan R&D karya Prof. Sugiyono',
-        price: 106000,
+        price: 60000,
         originalPrice: 150000,
-        discount: 12,
+        discount: 60,
         condition: 'Good',
         image: 'https://cdn.gramedia.com/uploads/picture_meta/2023/3/8/exqptqpg5zwe5zttmuxv7u.jpg',
         images: [
@@ -397,9 +397,9 @@ export const mockProducts: Product[] = [
     {
         id: '15',
         name: 'TARMAK Bola Basket BT900 Ukuran 7 Disetujui FIBA',
-        price: 649000,
+        price: 350000,
         originalPrice: 700000,
-        discount: 7,
+        discount: 50,
         condition: 'Good',
         image: 'https://contents.mediadecathlon.com/p2705092/k$34bfd1a1787dcb27067366160c047e32/bola-basket-bt900-ukuran-7-disetujui-fiba-tarmak-8648080.jpg?f=1920x0&format=auto',
         images: [
@@ -425,9 +425,9 @@ export const mockProducts: Product[] = [
     {
         id: '16',
         name: 'Vas Bunga Gerabah Spayol',
-        price: 322000,
+        price: 200000,
         originalPrice: 600000,
-        discount: 45,
+        discount: 66,
         condition: 'Good',
         image: 'https://ntbmall.com/images/product/a90864be-2725-421f-bef0-f7ee141475ad/a90864be-2725-421f-bef0-f7ee141475ad-12022-02-18%2015:05:12.png',
         images: [
@@ -449,6 +449,137 @@ export const mockProducts: Product[] = [
         description: 'Vas bunga yang terbuat dari gerabah tanah liat Desa Banyuurip.',
         location: 'Surabaya',
         stock: 2
+    },
+    // New Products
+    {
+        id: '17',
+        name: 'Magic Com Miyako Mini MCM 606A/B 0.6L 3in1',
+        price: 150000,
+        originalPrice: 250000,
+        discount: 40,
+        condition: 'Good',
+        image: 'https://down-id.img.susercontent.com/file/c0703d39322f4135a977241d4723bccb@resize_w900_nl.webp',
+        images: ['https://down-id.img.susercontent.com/file/c0703d39322f4135a977241d4723bccb@resize_w900_nl.webp'],
+        rating: 4.5,
+        reviewCount: 3,
+        seller: {
+            id: 'ns1',
+            name: 'HomeAppliances',
+            avatar: 'https://placehold.co/100x100',
+            rating: 4.6,
+            responseTime: '< 3 hours',
+            totalSales: 10,
+            verified: false
+        },
+        isPremium: false,
+        category: 'Electronics',
+        description: 'Magic Com mini cocok untuk anak kost.',
+        location: 'Jakarta',
+        stock: 5
+    },
+    {
+        id: '18',
+        name: 'Celana Denim Pria Slimfit',
+        price: 75000,
+        originalPrice: 150000,
+        discount: 50,
+        condition: 'Good',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDHWVz0NCgEFeBONr56IyiOw_eL5yq9jK80g&s',
+        images: ['https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDHWVz0NCgEFeBONr56IyiOw_eL5yq9jK80g&s'],
+        rating: 4.2,
+        reviewCount: 12,
+        seller: {
+            id: 'ns2',
+            name: 'FashionMen',
+            avatar: 'https://placehold.co/100x100',
+            rating: 4.4,
+            responseTime: '< 1 hour',
+            totalSales: 45,
+            verified: false
+        },
+        isPremium: false,
+        category: 'Fashion',
+        description: 'Celana jeans pria model slimfit, nyaman dipakai.',
+        location: 'Bandung',
+        stock: 10
+    },
+    {
+        id: '19',
+        name: 'Tas Ransel Wanita Modis Untuk Sekolah',
+        price: 100000,
+        originalPrice: 180000,
+        discount: 44,
+        condition: 'Like New',
+        image: 'https://sc04.alicdn.com/kf/H1ef8e42dc94448da95f2220fcfdeb76dV.png',
+        images: ['https://sc04.alicdn.com/kf/H1ef8e42dc94448da95f2220fcfdeb76dV.png'],
+        rating: 4.8,
+        reviewCount: 25,
+        seller: {
+            id: 'ns3',
+            name: 'BagStore',
+            avatar: 'https://placehold.co/100x100',
+            rating: 4.9,
+            responseTime: '< 1 hour',
+            totalSales: 120,
+            verified: true
+        },
+        isPremium: false,
+        category: 'Fashion',
+        description: 'Tas ransel wanita stylish, cocok untuk sekolah atau jalan-jalan.',
+        location: 'Jakarta',
+        stock: 3
+    },
+    {
+        id: '20',
+        name: 'Lampu Belajar',
+        price: 150000,
+        originalPrice: 200000,
+        discount: 25,
+        condition: 'Good',
+        image: 'https://img.lazcdn.com/g/p/302abc45a9f21f06875401a1790d6d24.jpg_720x720q80.jpg',
+        images: ['https://img.lazcdn.com/g/p/302abc45a9f21f06875401a1790d6d24.jpg_720x720q80.jpg'],
+        rating: 4.6,
+        reviewCount: 8,
+        seller: {
+            id: 'ns4',
+            name: 'StudyTools',
+            avatar: 'https://placehold.co/100x100',
+            rating: 4.7,
+            responseTime: '< 4 hours',
+            totalSales: 30,
+            verified: false
+        },
+        isPremium: false,
+        category: 'Furniture',
+        description: 'Lampu belajar fleksibel, cahaya terang dan hemat energi.',
+        location: 'Surabaya',
+        stock: 7
+    },
+    {
+        id: '21',
+        name: 'Kalkulator Scientific Joyko CC-25',
+        price: 65000,
+        originalPrice: 95000,
+        discount: 31,
+        condition: 'Like New',
+        image: 'https://imgx.brdcdn.com/imgx/300/aW1hZ2VzLnRva29wZWRpYS5uZXQvaW1nL2NhY2hlLzcwMC9wcm9kdWN0LTEvMjAxOC8xLzMvNTE0ODkyNy81MTQ4OTI3XzllMWYzYWRiLTkwMDYtNGJjNS1hODU3LWNiMzBiNDdmNGI5OV82NzVfNjc5.jpg',
+        images: ['https://imgx.brdcdn.com/imgx/300/aW1hZ2VzLnRva29wZWRpYS5uZXQvaW1nL2NhY2hlLzcwMC9wcm9kdWN0LTEvMjAxOC8xLzMvNTE0ODkyNy81MTQ4OTI3XzllMWYzYWRiLTkwMDYtNGJjNS1hODU3LWNiMzBiNDdmNGI5OV82NzVfNjc5.jpg'],
+        rating: 4.9,
+        reviewCount: 40,
+        seller: {
+            id: 'ns5',
+            name: 'OfficeSupplies',
+            avatar: 'https://placehold.co/100x100',
+            rating: 4.8,
+            responseTime: '< 1 hour',
+            totalSales: 150,
+            verified: true
+        },
+        isPremium: false,
+        category: 'Electronics',
+        description: 'Kalkulator scientific lengkap, cocok untuk pelajar dan mahasiswa.',
+        location: 'Yogyakarta',
+        stock: 12
     }
 ]
 

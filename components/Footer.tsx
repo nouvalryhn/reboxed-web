@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import { Package, Mail, Phone, MapPin, Facebook, Twitter, Instagram, Youtube } from 'lucide-react'
 
 export function Footer() {
@@ -9,8 +10,15 @@ export function Footer() {
                     {/* Brand */}
                     <div className="lg:col-span-1">
                         <Link href="/" className="flex items-center gap-3 mb-6">
-                            <div className="bg-gradient-to-br from-emerald-500 to-teal-600 p-2.5 rounded-xl">
-                                <Package className="h-6 w-6 text-white" />
+                            <div className="bg-transparent p-0 rounded-xl">
+                                {/* Logo Image */}
+                                <Image
+                                    src="/logo.jpg"
+                                    alt="ReBoxed Logo"
+                                    width={40}
+                                    height={40}
+                                    className="rounded-xl shadow-lg border border-gray-100/10"
+                                />
                             </div>
                             <div>
                                 <h4 className="text-xl font-bold text-white">ReBoxed</h4>
@@ -75,7 +83,7 @@ export function Footer() {
                             </li>
                             <li className="flex items-start gap-3">
                                 <MapPin className="h-4 w-4 mt-0.5 text-emerald-400" />
-                                <span className="text-sm text-gray-400">Jakarta, Indonesia</span>
+                                <span className="text-sm text-gray-400">Surabaya, Indonesia</span>
                             </li>
                         </ul>
                     </div>
@@ -85,7 +93,7 @@ export function Footer() {
                 <div className="border-t border-white/10 pt-8">
                     <div className="flex flex-col md:flex-row justify-between items-center gap-4">
                         <p className="text-sm text-gray-500">
-                            © 2024 ReBoxed. All rights reserved. Made with ❤️ in Indonesia
+                            © 2025 ReBoxed. All rights reserved. Made with ❤️ in Indonesia
                         </p>
                         <div className="flex items-center gap-6">
                             <span className="text-xs text-gray-600">Pembayaran Aman:</span>
